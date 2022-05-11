@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["community"],{8838:function(n,t,e){"use strict";e.r(t);var c=e("7a23");function u(n,t,e,u,i,o){return Object(c["u"])(),Object(c["d"])("div",null," 此功能正在开发中，敬请期待 ：） ")}var i=Object(c["i"])({name:"Community"}),o=e("6b0d"),r=e.n(o);const a=r()(i,[["render",u]]);t["default"]=a}}]);
+//# sourceMappingURL=community.0f205bbb.js.map
