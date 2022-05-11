@@ -1,0 +1,65 @@
+<template>
+    <div class="product-wrapper">
+        <ul class="product-main">
+            <li>
+                <img style="width: 45%;" src="https://wx2.sinaimg.cn/mw2000/7709ac50ly1h14hbijoo4j22c0340b2c.jpg" />
+                <h3>成品盲盒</h3>
+            </li>
+            <li>
+                <img style="width: 45%;" src="https://wx2.sinaimg.cn/mw2000/7709ac50ly1h14hbijoo4j22c0340b2c.jpg" />
+                <h3>原材料盲盒</h3>
+            </li>
+        </ul>
+        <ul class="product-main">
+            <li class="product-sku" style="width: 45%;">
+                <p>
+1.大专或以上学历或有2年以上服装设计工作经验
+
+2.能独立完成设计企划，包括主打风格、颜色、款式等
+
+3.对服装设计有独到见解，具有时尚创意思维，了解潮流局势
+
+4.具有强烈团队意识，将品牌的理念透过一系列的设计表达出来
+
+*本岗位为远程协作模式，对年龄、性别、身体残健友好
+
+欢迎附作品投递简历至：chumzhou1205@outlook.com
+
+如若符合要求，我们将安排远程面试
+
+如若面试成功，我们将与您签署合作协议，确保您的法律权益</p>
+            </li>
+            <li class="product-sku" style="width: 45%;">
+                <p>1.高中或以上学历或有2年以上布料缝纫工作经验
+
+2.在合理时间内按设计师稿件完成制作和修改
+
+3.熟悉各种面料知识，熟练使用相关缝纫工具，手艺娴熟
+
+4.吸收新事物能力强，工作认真踏实，细心周到
+
+5.有责任心及有效独立工作的能力，具有良好的沟通合作精神
+
+*本岗位为远程协作模式，对年龄、性别、身体残健友好
+
+欢迎附作品投递简历至：chumzhou1205@outlook.com
+
+如若符合要求，我们将安排远程面试
+
+如若面试成功，我们将与您签署合作协议，确保您的法律权益</p>
+            </li>
+        </ul>
+        <div>
+            成为Boxtile合作设计师/手艺人流程
+        </div>
+    </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import '../assets/style/product.css';
+
+export default defineComponent({
+  name: 'Opportunity',
+});
+</script>
