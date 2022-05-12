@@ -1,5 +1,5 @@
 .product-wrapper {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 .product-main {
@@ -18,4 +18,25 @@
 }
 .product-sku p{
     height: 200px;
+}
+
+.product-flow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 20px;
+}
+.product-flow {
+    display: flex;
+    align-items: center;
+}
+.product-flow span {
+    margin: 0 10px;
+}
+.product-tip {
+    text-align: center;
+}
+.product-bottom {
+    padding: 20px 0;
+    background: #eee;
 }
