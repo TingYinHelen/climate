@@ -1,15 +1,28 @@
 <template>
   <div class="header">
-      <div class="logo">logo</div>
+      <div class="logo"></div>
       <div class="nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/product">Product/Service</router-link>
-        <router-link to="/opportunity">Opportunity</router-link>
-        <router-link to="/community">Community</router-link>
-        <router-link to="/about">About</router-link>
+        <router-link to="/" :class="{active: $route.name === 'Home'}">
+            Home
+        </router-link>
+        <router-link to="/product" :class="{active: $route.name === 'Product'}">
+            Product/Service
+        </router-link>
+        <router-link to="/opportunity" :class="{active: $route.name === 'Opportunity'}">
+            Opportunity
+        </router-link>
+        <router-link to="/community" :class="{active: $route.name === 'Community'}">
+            Community
+        </router-link>
+        <router-link to="/about" :class="{active: $route.name === 'About'}">
+            About
+        </router-link>
       </div>
   </div>
   <router-view/>
+  <div class="footer">
+      c Boxtile       Contact   |   Term of Use.  |   Privacy Policy   |   Local Sitemap
+  </div>
 </template>
 
 <style>
@@ -38,9 +51,11 @@
 }
 
 .header {
+    width: 1200px;
+    margin: 0 auto;
     position: relative;
-    height: 40px;
-    line-height: 40px;
+    height: 60px;
+    line-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,10 +70,22 @@
 }
 .logo {
     position: absolute;
-    left: 0;
+    left:0;
+    width: 50px;
+    height: 50px;
+    background: url(./assets/images/logo.jpeg);
+    background-size: cover;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.footer {
+    width: 1200px;
+    margin: 60px auto 30px;
+    text-align: center;
+}
+.active {
+    opacity: 0.6;
 }
 </style>

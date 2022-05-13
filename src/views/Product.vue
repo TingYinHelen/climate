@@ -8,42 +8,50 @@
         </ul>
         <ul class="product-main">
             <li class="product-sku">
-                <p>由Boxtile的签约设计师、手艺人倾心打造独特的盲盒，盲盒里必然装满了各种各样的想法…</p>
+                <p>
+                    A unique blind box created by Boxtile's contracted
+                    designers and craftsmen. The blind boxes consist of
+                    their innovative ideas.
+                </p>
                 <a>Buy it !</a>
             </li>
             <li class="product-sku">
                 <p>
-                    由Boxtile把控质量的纺织边角材料盲盒，<br />
-                    目前已有主题盲盒：<br />
-                    森林主题<br />
-                    海洋主题<br />
-                    天空主题<br />
-                    阳光主题<br />
-                    清新主题<br />
-                    朋克主题<br />
+                    Raw material blind box: waste textile
+                    material blind box with quality control by Boxtile,<br />
+                    There are currently themed blind boxes:<br />
+                    Forest theme<br />
+                    Ocean theme<br />
+                    Sky theme<br />
+                    Sunshine theme<br />
                     …
                 </p>
                 <a>Buy it !</a>
             </li>
             <li class="product-sku">
-                <p>由Boxtile的签约设计师、手艺人根据您的需求倾心为您打造专属的盲盒。</p>
+                <p>Boxtile's contracted designers and craftsmen will
+                    create your own blind box according to your needs.</p>
                 <a>Buy it !</a>
             </li>
         </ul>
         <div class="product-bottom">
             <div class="product-flow-wrapper">
-                <span>盲盒购买流程：</span>
+                <span>Blind box purchase process:</span>
                 <div class="product-flow">
-                    <span>用户购买下单</span>
+                    <span>user purchases and places an order</span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>Boxtile仓库发货</span>
+                    <span>repository delivery</span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>物流公司运输</span>
+                    <span>logistics company transportation</span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>用户签收盲盒</span>
+                    <span>user receives blind box</span>
                 </div>
             </div>
-            <div class="product-tip">*售出盲盒Boxtile不予退换，未来会开设「用户社区」，敬请期待：）</div>
+            <div class="product-tip">
+                * Blind boxes that are sold will not be
+                returned or exchanged. A "user community"
+                will be launched in the future, so stay tuned:)
+            </div>
         </div>
     </div>
 </template>
@@ -57,13 +65,13 @@ export default defineComponent({
   setup() {
     const productImgs = reactive([{
       img: require('../assets/images/product_1.jpg'),
-      text: '成品盲盒',
+      text: 'Blind Box',
     }, {
       img: require('../assets/images/product_2.jpg'),
-      text: '原材料盲盒',
+      text: 'Raw Material Blind Box',
     }, {
       img: require('../assets/images/product_3.jpg'),
-      text: '定制服务',
+      text: 'Customized Service',
     },
     ]);
     return {

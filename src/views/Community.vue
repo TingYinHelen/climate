@@ -1,8 +1,12 @@
 <template>
     <div class="community-wrapper">
         <div class="community-main">
-            <p>Boxtile平台将上线「盲盒互换」、「盲盒故事」、「盲盒评价」等单元，
-    此功能正在开发中，敬请期待 ：）</p>
+            <p>
+                Boxtile platform will launch "Blind Box Swap",
+                "Blind Box Story", "Blind Box Evaluation" and other units. <br />
+                 This function is under development,
+                please look forward to it:)
+            </p>
         </div>
     </div>
 </template>

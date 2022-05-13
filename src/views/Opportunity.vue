@@ -9,43 +9,63 @@
         <ul class="opportunity-main" style="justify-content: space-between;">
             <li class="product-sku">
                 <p>
-                    1.大专或以上学历或有2年以上服装设计工作经验 <br />
-                    2.能独立完成设计企划，包括主打风格、颜色、款式等 <br />
-                    3.对服装设计有独到见解，具有时尚创意思维，了解潮流局势 <br />
-                    4.具有强烈团队意识，将品牌的理念透过一系列的设计表达出来 <br />
-                    *本岗位为远程协作模式，对年龄、性别、身体残健友好 <br />
-                    欢迎附作品投递简历至：chumzhou1205@outlook.com <br />
-                    如若符合要求，我们将安排远程面试 <br />
-                    如若面试成功，我们将与您签署合作协议，确保您的法律权益 <br />
+                    1.College degree or above or have more than 2
+                    years working experience in garment design <br />
+                    2. Be able to complete the design planning independently,
+                    including the main style, color, style, etc. <br />
+                    3. Have unique insights into apparel design, creative
+                    fashion thinking and understanding of trend situation <br />
+                    4. Have a strong sense of teamwork and express the brand concept
+                    through a series of designs <br />
+                    *This position is a remote collaboration model. Age, gender,
+                    and physical disability friendly<br />
+                    Welcome to attach your work and submit your resume to:
+                    chumzhou1205@outlook.com<br />
+                    If you meet the requirements, we will
+                    arrange for a remote interview<br />
+                    If the interview is successful, we will sign a
+                    contract with you to ensure your legal rights<br />
                 </p>
             </li>
             <li class="product-sku">
-                <p>1.高中或以上学历或有2年以上布料缝纫工作经验 <br />
-                    2.在合理时间内按设计师稿件完成制作和修改 <br />
-                    3.熟悉各种面料知识，熟练使用相关缝纫工具，手艺娴熟 <br />
-                    4.吸收新事物能力强，工作认真踏实，细心周到 <br />
-                    5.有责任心及有效独立工作的能力，具有良好的沟通合作精神 <br />
-                    *本岗位为远程协作模式，对年龄、性别、身体残健友好 <br />
-                    欢迎附作品投递简历至：chumzhou1205@outlook.com <br />
-                    如若符合要求，我们将安排远程面试 <br />
-                    如若面试成功，我们将与您签署合作协议，确保您的法律权益 <br />
+                <p>
+                    1. High school education or above or 2 years of
+                    experience in fabric sewing <br />
+                    2. Complete the production and modification according to
+                    the designer's draft within reasonable time <br />
+                    3. Familiar with all kinds of fabric knowledge, skilled in using relevant
+                    sewing tools and skilled in handicraft <br />
+                    4. Good ability to absorb new things, work conscientiously,
+                    careful and thoughtful <br />
+                    5. Have the ability to work independently and effectively with a
+                     sense of responsibility
+                     and good communication
+                     and cooperation spirit<br />
+                     *This position is a remote collaboration model.
+                      Age, gender, and physical disability friendly<br />
+                    Welcome to attach your work and submit your resume
+                     to: chumzhou1205@outlook.com<br />
+                    If you meet the requirements, we will arrange a
+                     remote interview<br />
+                    If the interview is successful, we
+                     will sign a contract with you to ensure your legal rights<br />
                 </p>
             </li>
         </ul>
         <div class="product-bottom">
             <div class="product-flow-wrapper">
-                <span>成为Boxtile合作设计师/手艺人流程：</span>
+                <span>Process to become a cooperative designer / craftsman: </span>
                 <div class="product-flow">
-                    <span>投递简历（附作品）</span>
+                    <span>submit resume (with art portfolio) </span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>面试（附作品）</span>
+                    <span>remote interview (with art portfolio)</span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>签署合作协议</span>
+                    <span>sign contract </span>
                     <el-icon color="#409EFC"><DArrowRight /></el-icon>
-                    <span>平台身份标识</span>
+                    <span>verified by platform</span>
                 </div>
             </div>
-            <div class="product-tip"> *一旦出现欺诈行为将永不录用</div>
+            <div class="product-tip"> *In case of fraud, one will never be hired</div>
         </div>
     </div>
 </template>
@@ -60,11 +80,11 @@ export default defineComponent({
     const opportunityImgs = reactive([
       {
         img: require('../assets/images/opportunity_1.jpg'),
-        text: '成为Boxtile签约设计师',
+        text: 'Become a contract designer',
       },
       {
         img: require('../assets/images/opportunity_2.jpg'),
-        text: '成为Boxtile签约手艺人',
+        text: 'Become a contract craftsman',
       },
     ]);
     return {
@@ -95,9 +115,10 @@ export default defineComponent({
         background: #eee;
     }
     .opportunity-main li {
-        width: 46%;
+        width: 49%;
     }
     .opportunity-main p {
         height: auto;
+        text-align: left;
     }
 </style>

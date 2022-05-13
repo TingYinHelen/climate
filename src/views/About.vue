@@ -2,38 +2,44 @@
     <div class="about-wrapper">
         <div class="about-main">
             <div class="about-describe">
-                品牌故事<br /><br />
-                Boxtile是首家关注纺织行业边角料再造的品牌，
-                致力于解决服装生产链上的资源浪费问题，整合独立设计师、
-                独立裁缝手艺人协同合作，打造新商业模式。<br />
-                一方面解决资源浪费问题，减少焚烧废弃材料的环境污染，
-                倡导人们养成可持续生活的意识，注重物品的价值所在；
-                另一方面为有想法、有创意、有执行力的人才提供开放协作的工作机会，
-                让每一个动作都有不同层面的意义存在。<br />
-                为你，为我，为社会，为地球，我们愿意这样做！
+                Boxtile is the first company which focuses on
+                 recycling of textile wastes， and giving them new
+                economic values using a creative business model.
+                Boxtile is committed to solving the problem of resource
+                wastage in the textile industry. Through cooperation with
+                individual designers, individual tailors, and craftsmen, we
+                create a new business model that tackles wastage, reduces environmental
+                pollution caused by conventional methods of waste textiles processing,
+                and encourages people to develop the mindset of sustainable living and
+                focus on the value of goods. On the other hand, we provide open and collaborative
+                work opportunities for innovative and executive talents.
+                We hope that our project can bring meanings to multiple
+                 industries and a wide range of people. For you, for
+                  society and for our planet, we are willing to do so!
             </div>
             <div class="about-members">
                 <h4>团队成员</h4>
                 <ul>
                     <li>
                         <i></i>
-                        <span>一句话个人介绍</span>
+                        <span>闯闯Clara: Gen-Z, unlimited passion for environmental protection.</span>
                     </li>
                     <li>
                         <i></i>
-                        <span>一句话个人介绍</span>
+                        <span>熙然Christina: Student, environmentally-concerned personnel,
+                            animal lover</span>
                     </li>
                     <li>
                         <i></i>
-                        <span>一句话个人介绍</span>
+                        <span>然然: Student, willing to do a part for the environment.</span>
                     </li>
                     <li>
                         <i></i>
-                        <span>一句话个人介绍</span>
+                        <span>Helen: Student, A coder</span>
                     </li>
                     <li>
                         <i></i>
-                        <span>一句话个人介绍</span>
+                        <span>Glowd: Student, A hacker</span>
                     </li>
                 </ul>
             </div>
@@ -90,5 +96,6 @@ export default defineComponent({
         border: 1px solid #eee;
         border-radius: 50%;
         margin-right: 10px;
+        flex-shrink: 0;
     }
 </style>
