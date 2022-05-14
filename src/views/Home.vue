@@ -90,7 +90,7 @@ export default defineComponent({
     }, {
       img: require('../assets/images/home_link_3.jpg'),
       link: 'https://www.youtube.com/watch?v=TCo7jEF-aDE',
-      title: 'Handcraft/Sewing Courses',
+      title: 'Handicraft/Sewing Courses',
     }, {
       img: require('../assets/images/home_link_4.jpg'),
       link: 'https://www.greenplan.gov.sg/',

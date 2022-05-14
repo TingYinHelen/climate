@@ -21,7 +21,7 @@
   </div>
   <router-view/>
   <div class="footer">
-      c Boxtile       Contact   |   Term of Use.  |   Privacy Policy   |   Local Sitemap
+      Copyright &copy; Boxtile Contact | Term of Use. | Privacy Policy | Local Sitemap
   </div>
 </template>
 
@@ -32,6 +32,7 @@
         color: #333;
         font-size: 14px;
         box-sizing: border-box;
+        font-family:"Microsoft YaHei";
     }
     a {
         text-decoration: none;
