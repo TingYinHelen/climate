@@ -18,28 +18,11 @@
                   society and for our planet, we are willing to do so!
             </div>
             <div class="about-members">
-                <h4>团队成员</h4>
+                <h4>Team Members</h4>
                 <ul>
-                    <li>
-                        <i></i>
-                        <span>闯闯Clara: Gen-Z, unlimited passion for environmental protection.</span>
-                    </li>
-                    <li>
-                        <i></i>
-                        <span>熙然Christina: Student, environmentally-concerned personnel,
-                            animal lover</span>
-                    </li>
-                    <li>
-                        <i></i>
-                        <span>然然: Student, willing to do a part for the environment.</span>
-                    </li>
-                    <li>
-                        <i></i>
-                        <span>Helen: Student, A coder</span>
-                    </li>
-                    <li>
-                        <i></i>
-                        <span>Glowd: Student, A hacker</span>
+                    <li v-for="item in avatarList" :key="item">
+                        <img :src="item.img" />
+                        <span>{{item.text}}</span>
                     </li>
                 </ul>
             </div>
@@ -48,15 +31,36 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, reactive } from 'vue';
 
 export default defineComponent({
   name: 'About',
+  setup() {
+    const avatarList = reactive([{
+      img: require('../assets/images/avatar1.jpeg'),
+      text: '闯闯Clara: Gen-Z, unlimited passion for environmental protection.',
+    }, {
+      img: require('../assets/images/avatar2.jpeg'),
+      text: '熙然Christina: Student, environmentally-concerned personnel, animal lover',
+    }, {
+      img: require('../assets/images/avatar3.jpeg'),
+      text: '然然: Student, willing to do a part for the environment.',
+    }, {
+      img: require('../assets/images/avatar4.jpeg'),
+      text: 'Helen: Student, A coder',
+    }, {
+      img: require('../assets/images/avatar5.jpeg'),
+      text: 'Glowd: Student, A hacker',
+    }]);
+    return {
+      avatarList,
+    };
+  },
 });
 </script>
 <style scoped>
     .about-wrapper {
-        height: calc(100vh - 40px);
+        height: calc(100vh - 60px);
         padding: 30px;
         background: url(../assets/images/about.jpg);
         background-size: cover;
@@ -85,17 +89,18 @@ export default defineComponent({
     .about-members li {
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .about-members li span{
         color: #fff;
     }
-    .about-members li i{
+    .about-members li img{
         width: 50px;
         height: 50px;
         border: 1px solid #eee;
         border-radius: 50%;
         margin-right: 10px;
         flex-shrink: 0;
+        object-fit: cover;
     }
 </style>

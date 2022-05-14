@@ -82,27 +82,27 @@ export default defineComponent({
     const links = reactive([{
       img: require('../assets/images/home_link_1.jpg'),
       link: 'https://textilelearner.net/classification-of-textile-fibers',
-      title: '原材料介绍',
+      title: 'Introduction to raw materials',
     }, {
       img: require('../assets/images/home_link_2.jpg'),
       link: 'https://www.youtube.com/watch?v=DwQEQM2YUn8&list=PLwQq1-SdsNvYcdi6lQA8NnV6wNkisWPox',
-      title: '服装设计教学',
+      title: 'Fashion Design Tutorial Videos',
     }, {
       img: require('../assets/images/home_link_3.jpg'),
       link: 'https://www.youtube.com/watch?v=TCo7jEF-aDE',
-      title: '手工/缝纫教学',
+      title: 'Handcraft/Sewing Courses',
     }, {
       img: require('../assets/images/home_link_4.jpg'),
       link: 'https://www.greenplan.gov.sg/',
-      title: '了解更多「绿色计划」',
+      title: 'Learn more about "The Green Plan"',
     }, {
       img: require('../assets/images/home_link_5.jpg'),
       link: 'https://forums.thefashionspot.com/',
-      title: '服装设计社区',
+      title: 'Fashion Design Community',
     }, {
       img: require('../assets/images/home_link_6.jpg'),
       link: 'https://thehandmadeforum.boards.net/',
-      title: '手工社区',
+      title: 'Craftsmanship community',
     },
     ]);
     const boxtileList = reactive([

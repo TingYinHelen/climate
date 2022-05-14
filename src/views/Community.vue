@@ -27,7 +27,7 @@ export default defineComponent({
 </script>
 <style>
     .community-wrapper {
-        height: calc(100vh - 40px);
+        height: calc(100vh - 60px);
         background: url(../assets/images/community.jpg);
         background-size: cover;
     }
