@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/climate/dist/precache-manifest.d02d11f12c7d5f6db5b357b39dcf918b.js"
+  "/climate/dist/precache-manifest.8ccfbbb4ae5fc038fe68bc70ced707e4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "climate"});
